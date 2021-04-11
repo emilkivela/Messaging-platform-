@@ -1,3 +1,9 @@
 <title> Viestittelyalusta </title>
-<p>
+{% if session.username %}
+<p> Olet kirjautunut sisään käyttäjällä {{ session.username }}</p>
+
+{% else %}
+<a href="/login">Kirjaudu sisään</a>
+<a href="/register"> Luo uusi käyttäjä</a>
+
 
