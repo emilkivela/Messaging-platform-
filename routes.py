@@ -4,10 +4,4 @@ import chats, users, messages
 
 @app.route("/")
 def index():
-    dfsdfs
-    return render_template("index.html", 
-@app.route()
-
-@app.route()
-
-@app.route()
+    return render_template("index.html") 
